@@ -21,7 +21,7 @@ Modules
 Installation
 ----
     git bffb https://github.com/haithamaouati/bffb.git
-    cd bfShark
+    cd bffb
     chmod+x bffb.pl
     
 Usage
