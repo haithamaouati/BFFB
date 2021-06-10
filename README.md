@@ -1,7 +1,7 @@
 # bffb
 
 ![GitHub repository](https://img.shields.io/badge/haithamaouati-bffb-blue?style=flat-square&logo=github)
-![GitHub version](https://img.shields.io/badge/version-1.0-yellow?style=flat-square)
+![GitHub version](https://img.shields.io/badge/version-1.1-yellow?style=flat-square)
 
 brute force facebook with SSL options.
 
@@ -44,6 +44,8 @@ Environments
 
 Changelog
 ----
+###### Headers (6/10/2021)
+* Change User-Agent.
 ###### SSL (6/8/2021)
 * Added SSL options.
 
